@@ -1,0 +1,17 @@
+AREA OF RECTANGLE
+#include <stdio.h>
+
+int main()
+{
+    float area;
+    float base;
+    float height;
+
+    print("please enter the base:");
+    scanf("%f", &base);
+    printf("please enterthe height:");
+    scanf("%f", &height);
+
+    area=base*height;
+    printf("the area of rectangle is: %f" ,area);
+}
